@@ -1,0 +1,40 @@
+#objeto {
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    top:0;
+    left: 0;
+    border-radius: 15px;
+    color: white;
+}
+
+#header {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 10px;
+}
+
+.boton {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    margin: 0 5px;
+}
+
+#contenedor-botones {
+    display: flex;
+}
+
+#titulo {
+    margin-right: 250px;
+}
+
+#contenido {
+    padding: 15px;
+}
